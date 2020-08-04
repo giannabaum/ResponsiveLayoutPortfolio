@@ -1,0 +1,185 @@
+/* Import from Google fonts, "Actor, Shrinkhand, Special Elite" */
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Shrikhand&family=Special+Elite&display=swap');
+
+body {
+  background-color: #51A3A3;
+}
+/* Class from div element to manipulate the background of mt header*/
+header {
+  background-color: #DD7373;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  border: #3B3561;
+  width: 100%
+}
+
+h1 {
+  font-family: shrikhand, monospace;
+letter-spacing: 12px;
+color: #EAD94C;
+text-shadow: 1px 3px #3B3561;
+text-align: center;
+font-size: 46px;
+margin-bottom:0px;
+
+}
+hr {
+  width: 30px;
+  height: 30px;
+  border:none;
+  border-radius: 50%;
+  background-color: #DD7373;
+  color: #DD7373;
+  margin-top: 40px;
+  margin-bottom:40px;
+
+}
+
+h2 {
+font-family: actor, monospace;
+text-align:center;
+color:gainsboro;
+font-size: 20px;
+text-shadow: 1px 1px gray;
+letter-spacing: 5px;
+margin-top:0px;
+}
+img {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display:block;
+}
+h3 {
+  font-family:"special elite", cursive;
+  text-align:center;
+  color: #3B3561;
+  font-size: 20px;
+}
+h4 {
+  font-family: actor, Arial, Helvetica;
+  text-align: center;
+  color: #EAD94C;
+}
+p {
+  font-family: actor, monospace;
+  letter-spacing: 1px;
+  max-width: 400px;
+  color:#3B3561;
+  text-align:center;
+  margin:auto;
+}
+ul {
+    font-family: actor, monospace;
+  letter-spacing: 1px;
+  max-width: 400px;
+  color:#3B3561;
+  margin:auto;
+}
+ol {
+  font-family: actor, monospace;
+  font-size: 18px;
+  text-align:center;
+  display:block;
+  width:100px;
+  height:55px;
+  margin:auto;
+  padding-top:10px; 
+  background-color:#EAD94C;
+  border-radius: 10%;
+
+}
+a{
+  font-family: actor, 'Courier New';
+  text-align: center;
+  font-size: 14px;
+}
+a:link {
+color: #3B3561;
+}
+a:visited {
+  color:#3B3561;
+}
+a:hover {
+  color: #DD7373;
+}
+a:active {
+  color: aqua;
+}
+ .form-group {
+   display:flex;
+   flex-direction: column;
+   margin-top: 10px;
+   padding-top: 10px;
+   background-color: #3B3561;
+   width: 100%;
+   align-items: center;
+   
+ }
+ label {
+   font-family: actor, 'Courier New', Courier, monospace;
+   text-align: center;
+   color: gainsboro;
+ }
+ .group {
+   display: flex;
+   flex-direction: column;
+   margin:10px;
+ }
+ .item {
+width: 100%;
+align-content: center;
+ }
+ button {
+   margin-left:auto;
+   margin-right:auto;
+   background-color: #EAD94C;
+   font-family: Shrikhand, monospace;
+   color: #DD7373;
+ }
+ .formClassButton {
+   text-align:center;
+   padding-bottom: 10px;
+ }
+/* Class of footer, add shadow to text*/
+.copyright {
+    font-family: shrikhand, monospace;
+  letter-spacing: 1px;
+  max-width: 400px;
+  color:#3B3561;
+  text-align:center;
+  margin:auto;
+  text-shadow:1px 1px  #EAD94C;
+}
+footer {
+  /* display as a box, and add margin to the top, so that the bottom of the contact box is not touching. */
+  display:block;
+  height: 50px;
+  background-color:#DD7373;
+  padding-top: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+@media all and (min-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+  ul {
+    font-size:14px;
+  }
+  h4 {
+    color: #3B3561;
+  }
+  .group {
+   flex-direction: row;
+  }
+  .item {
+    width: auto;
+    background-color: gainsboro;
+    margin: 5px;
+    padding: 5px;
+  }
+}
