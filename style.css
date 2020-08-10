@@ -95,6 +95,12 @@ ol {
   border-radius: 10%;
 
 }
+.textToLeft {
+  font-family: actor, monospace;
+  letter-spacing: 1px;
+  max-width: 400px;
+  color:#3B3561;
+  text-align: left; 
 a{
   font-family: actor, 'Courier New';
   text-align: center;
