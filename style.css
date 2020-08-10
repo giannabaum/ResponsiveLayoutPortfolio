@@ -48,7 +48,9 @@ margin-top:0px;
 }
 img {
   display: flex;
+  margin:auto;
   justify-content: center;
+  
 }
 /*.center {
   display:block;
