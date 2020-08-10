@@ -50,9 +50,10 @@ img {
   display: flex;
   justify-content: center;
 }
-.center {
+/*.center {
   display:block;
 }
+*/
 h3 {
   font-family:"special elite", cursive;
   text-align:center;
