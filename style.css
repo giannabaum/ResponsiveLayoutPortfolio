@@ -167,6 +167,9 @@ footer {
   p {
     font-size: 14px;
   }
+  img {
+  display: flex; 
+  }
   ul {
     font-size:14px;
   }
